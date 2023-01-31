@@ -170,6 +170,7 @@
   flex: 4;
   height: 100%;
   display: flex;
+  overflow: hidden;
   justify-content: center;
   align-items: flex-end;
   position: relative;
@@ -178,6 +179,7 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+
   background: conic-gradient(
     from 180deg at 50% 50%,
     rgb(71, 78, 14) 0%,
