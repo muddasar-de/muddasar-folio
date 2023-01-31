@@ -201,13 +201,17 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
+  @media screen and (max-width: 1200px) {
+    font-size: 2.5rem;
+    width: 80%;
+  }
   @media screen and (max-width: 768px) {
     font-size: 2rem;
     width: 100%;
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 560px) {
     font-size: 2.5rem;
-    width: 80%;
+    width: 96%;
   }
 }

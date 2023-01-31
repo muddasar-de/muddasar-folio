@@ -21,6 +21,9 @@
   @media screen and (max-width: 1200px) {
     padding: 1rem 3rem;
   }
+  @media screen and (max-width: 768px) {
+    padding: 0.5rem 2rem;
+  }
 }
 
 .app__navbar-logo {
@@ -34,6 +37,10 @@
 
     @media screen and (min-width: 2000px) {
       width: 100px;
+      height: auto;
+    }
+    @media screen and (max-width: 768px) {
+      width: 56px;
       height: auto;
     }
   }

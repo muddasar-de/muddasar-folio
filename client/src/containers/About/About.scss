@@ -7,6 +7,9 @@
   @media screen and (max-width: 1200px) {
     padding: 2rem 3rem;
   }
+  @media screen and (max-width: 560px) {
+    padding: 2rem 1rem;
+  }
 }
 .app__about {
   flex: 1;
@@ -37,7 +40,7 @@
     object-fit: cover;
   }
 
-  @media screen and (min-width: 2000px) {
+  @media screen and (max-width: 2000px) {
     width: 370px;
     margin: 2rem 4rem;
 
@@ -45,21 +48,21 @@
       height: 320px;
     }
   }
-  @media screen and (max-width: 1600px) {
-    width: 300px;
-    margin: 2rem 2rem;
+  // @media screen and (max-width: 1600px) {
+  //   width: 300px;
+  //   margin: 2rem 2rem;
+
+  //   img {
+  //     height: 300px;
+  //   }
+  // }
+
+  @media screen and (max-width: 768px) {
+    width: 160px;
+    margin: 1rem 1rem;
 
     img {
-      height: 300px;
-    }
-  }
-
-  @media screen and (max-width: 1024px) {
-    width: 220px;
-    margin: 1rem 1.5rem;
-
-    img {
-      height: 220px;
+      height: 160px;
     }
   }
   @media screen and (max-width: 560px) {
