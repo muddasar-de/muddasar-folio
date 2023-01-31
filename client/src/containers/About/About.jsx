@@ -46,8 +46,8 @@ const About = () => {
         className="gradient__text "
         // style={{ width: "50%", display: "block", margin: "auto" }}
       >
-        I know that <span>Good Design</span>
-        <br /> means <span>Good Design </span>
+        I know that <span>Good Design </span>
+        means <span>Good Design </span>
       </h2>
       {/* <div className="app__profiles"> */}
       <motion.div
