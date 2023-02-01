@@ -7,6 +7,7 @@ import "./Navbar.scss";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [activeLink, setactiveLink] = useState("home");
   const links = ["home", "about", "work", "skills", "contact"];
   return (
     <nav className="app__navbar">
@@ -17,7 +18,16 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         {links.map((item) => (
-          <li className="app__flex p-text" key={`link-${item}`}>
+          <li
+            className="app__flex p-text"
+            key={`link-${item}`}
+            style={
+              activeLink === item
+                ? { color: "var(--secondary-color)", fontWeight: "800" }
+                : {}
+            }
+            onClick={() => setactiveLink(item)}
+          >
             <a href={`#${item}`}>{item}</a> <div />
           </li>
         ))}

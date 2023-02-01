@@ -13,7 +13,7 @@ const About = () => {
   }, []);
 
   return (
-    <div id="about" className="about__container">
+    <div id="about" className="about__container ">
       <h2
         className="gradient__text "
         // style={{ width: "50%", display: "block", margin: "auto" }}

@@ -10,7 +10,7 @@ const NavigationDots = ({ active }) => {
           href={`#${item}`}
           onClick={() => setToggle(false)}
           key={item + index}
-          className="app_navigation-dot"
+          className="app__navigation-dot"
           style={active === item ? { backgroundColor: "#313BAC" } : {}}
         />
       ))}
